@@ -1,0 +1,28 @@
+{
+  "name": "compile-pipeline",
+  "version": "1.0.0",
+  "description": "compile-pipeline",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/node-compile-pipeline.git"
+  },
+  "keywords": [
+    "compile-pipeline"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-compile-pipeline/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0"
+  }
+}
